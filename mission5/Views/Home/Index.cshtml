@@ -1,0 +1,81 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+
+        .profile h2 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .about, .contact {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>Welcome to My Website</h1>
+</header>
+<section class="profile">
+    <img src="headshot.jpg" alt="My Profile Picture">
+    <h2>Your Name</h2>
+    <p>Entrepreneur | Developer | Consultant</p>
+</section>
+<section class="about">
+    <h2>About Me</h2>
+    <p>Hey! I'm Jared, an entrepreneur passionate about technology, business automation, and helping small businesses scale efficiently.
+        I have experience in AI-driven solutions, automation, and consulting for various industries.</p>
+</section>
+<section class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="jaredhmackay@gmail.com">your.email@example.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/jared-mackay-8b710918a/">linkedin.com/in/yourprofile</a></p>
+</section>
+</body>
+</html>
